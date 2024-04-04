@@ -105,3 +105,8 @@ form{
     text-decoration: none;
     color: blue;
 }
+@media screen and (min-width:330px) and (max-width:750px) {
+    .container{
+        width: 80%;
+    }
+}
