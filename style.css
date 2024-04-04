@@ -1,0 +1,107 @@
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    background-image: url("./image/giulia-bertelli-VPZPLrDFytU-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex; 
+}
+.container{
+    margin: auto;
+    width: 450px;
+    backdrop-filter: blur(0.5px);
+    box-shadow: 1px 1px 10px black;
+    background-color: rgba(92, 91, 91, 0.308)
+}
+.login-text{
+    font-size: 15px;
+    color: white;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.email, .pass{
+    background-color: white;
+    width: 80%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    color: black;
+}
+.input-one{
+    background-color: white;
+    border: none;
+    outline: none;
+    width: 80%;
+}
+.forget{
+    text-align: start;
+    margin-left: 50px;
+}
+.forget a{
+    text-decoration: none;
+    color: white;
+}
+.btn-login{
+    width: 80%;
+    background-color: rgb(30, 154, 255);
+    height: 40px;
+    font-size: large;
+    color: white;
+    font-weight: bold;
+    margin: 10px;
+    border: none;
+}
+.btn-login:hover,.fb-btn:hover,.ig-btn:hover{
+    background-color: black;
+}
+.fb-btn:active,.ig-btn:active{
+    background-color: rgba(86, 86, 86, 0.33);
+    border: 2px solid black;
+}
+.btn-login:active{
+    background-color: white;
+    color: orangered;
+}
+.btn-sl{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.fb-btn{
+    border: none;
+    background-color: blue;
+    color: whitesmoke;
+    height: 40px;
+    width: 45%;
+    font-size: large;
+    font-weight: bold;
+}
+
+.ig-btn{
+    border: none;
+    background-color:rgb(239, 58, 88);
+    color: whitesmoke;
+    height: 40px;
+    width: 45%;
+    font-size: large;
+    font-weight: bold;
+}
+.div-p, .or{
+    color: white;
+}
+.div-p a{
+    text-decoration: none;
+    color: blue;
+}
